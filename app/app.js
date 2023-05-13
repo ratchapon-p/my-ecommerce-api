@@ -1,5 +1,4 @@
-import dotenv from 'dotenv';
-dotenv.config();
+
 import Stripe from "stripe";
 import express from 'express';
 import dbConnect from '../config/dbConnect.js';
