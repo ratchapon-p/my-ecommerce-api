@@ -1,6 +1,6 @@
 import express from "express";
 import { createColorCtrl,getAllColorsCtrl , getSingleColorCtrl, updateColorCtrl, deleteColorCtrl } from "../controllers/colorsCtrl.js";
-import { isLoggedIn } from "../middlewares/isLoggedin.js";
+import { isLoggedIn } from "../middlewares/isLoggedIn.js";
 import isAdmin from "../middlewares/isAdmin.js";
 
 

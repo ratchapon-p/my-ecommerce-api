@@ -1,6 +1,6 @@
 import express from "express";
 import { createBrandCtrl, deleteBrandCtrl, getAllBrandsCtrl, getSingleBrandsCtrl,updateCBrandCtrl } from "../controllers/brandsCtrl.js";
-import { isLoggedIn } from "../middlewares/isLoggedin.js";
+import { isLoggedIn } from "../middlewares/isLoggedIn.js";
 import isAdmin from "../middlewares/isAdmin.js";
 
 const brandsRouter = express.Router();

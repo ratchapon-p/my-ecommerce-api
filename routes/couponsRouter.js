@@ -1,6 +1,6 @@
 import express from 'express';
 import { createCouponCtrl, getAllCouponsCtrl, getCouponCtrl, updateCouponCtrl, deleteCouponCtrl } from '../controllers/couponCtrl.js';
-import { isLoggedIn } from '../middlewares/isLoggedin.js';
+import { isLoggedIn } from "../middlewares/isLoggedIn.js";
 import isAdmin from '../middlewares/isAdmin.js';
 
 

@@ -1,5 +1,5 @@
 import express from "express";
-import { isLoggedIn } from "../middlewares/isLoggedin.js";
+import { isLoggedIn } from "../middlewares/isLoggedIn.js";
 import { createOrderCtrl, getAllordersCtrl, getSingleOrderCtrl, updateOrderCtrl , getOrderStatsCtrl} from "../controllers/orderCtrl.js";
 
 

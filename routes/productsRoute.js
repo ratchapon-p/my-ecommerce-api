@@ -1,7 +1,7 @@
 import express from "express";
 import upload from "../config/fileUpload.js";
 import { createProductCtrl, getProductsCtrl, getProductCtrl, updateProductCtrl, deleteProductCtrl, } from "../controllers/productsCtrl.js";
-import { isLoggedIn } from "../middlewares/isLoggedin.js";
+import { isLoggedIn } from "../middlewares/isLoggedIn.js";
 import isAdmin from "../middlewares/isAdmin.js";
 
 
