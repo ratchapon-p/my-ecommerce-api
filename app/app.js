@@ -15,12 +15,14 @@ import orderRouter from '../routes/ordersRouter.js';
 import Order from '../model/Order.js';
 import couponRouter from '../routes/couponsRouter.js';
 import couponsRouter from '../routes/couponsRouter.js';
+import cors from 'cors';
 
 //db connect
 
 dbConnect();
 
 const app = express();
+app.use(cors());
 
 //stripe webhook
 
